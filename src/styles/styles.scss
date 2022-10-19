@@ -1,0 +1,35 @@
+@import "./pages/main.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.dialog-center {
+  text-align: center;
+  vertical-align: center;
+  word-wrap: break-word;
+}
+
+.vs-dialog__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
